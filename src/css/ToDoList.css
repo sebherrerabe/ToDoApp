@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;600&family=Rubik:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  height: 50px;
+  width: 200px;
+}
+.logo {
+  background-image: url(./logo/to-do.png);
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+body {
+  min-height: 100vh;
+  background-image: url("https://images.fineartamerica.com/images-medium-large-5/melbourne-skyline-black-and-white-heather-provan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.main {
+  font-family: Akshar;
+  font-size: 1.2em;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 128, 128, 0.959);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  height: 50px;
+}
+.todo-list {
+  background-color: white;
+  min-height: 50px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.display-button-container {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display-button {
+  background: none;
+  background-size: cover;
+  height: 15px;
+  width: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.display-button:hover {
+  height: 20px;
+  width: 20px;
+}
+.todo-form input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: large;
+}
+.todo-form input:focus {
+  outline: none;
+}
+.todo-form input::placeholder {
+  font-style: italic;
+  font-size: 1.1em;
+}
+.tasks-list {
+  min-height: 50px;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  height: 33, 33%;
+  width: 100%;
+  background-color: white;
+}
+
+.flash {
+  height: 100%;
+  font-style: italic;
+  color: rgb(201, 201, 201);
+  margin-left: 20px;
+}
+.todo-item:hover {
+  background-color: rgb(248, 248, 248);
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+}
+input[type="checkbox"] {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.checkmark {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border: 1px solid teal;
+  border-radius: 50%;
+}
+.checkmark:hover {
+  background-color: teal;
+}
+.checkmark--active {
+  background-color: teal;
+}
+.task-form {
+  height: 100%;
+  width: 80%;
+}
+.task-input {
+  font-size: large;
+  border: none;
+  background-color: transparent;
+  height: 50px;
+  width: 55%;
+}
+.task-input:focus {
+  outline: none;
+}
+.X {
+  width: 10%;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.X:hover {
+  font-size: 1.2em;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+  font-size: smaller;
+  height: 50px;
+  padding-left: 4%;
+  width: 96%;
+  background-color: rgb(45, 45, 45);
+}
+.bottom p {
+  width: 200px;
+  font-style: italic;
+  color: rgb(205, 205, 205);
+}
+.categories {
+  font-size: 1.1em;
+  display: flex;
+  width: 170px;
+  justify-content: space-between;
+  align-items: center;
+}
+.categories span {
+  padding: 4px;
+  cursor: pointer;
+}
+.categories span:hover {
+  border: 1px solid teal;
+  border-radius: 2px;
+}
+.category--active {
+  border: 1px solid teal;
+  border-radius: 2px;
+}
+.flash {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.mg-top40 {
+  margin-top: 40px;
+}
+.mg-top20 {
+  margin-top: 20px;
+}
+.mg-top10 {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  .main {
+    font-size: 0.9em;
+  }
+  .todo-list {
+    width: 85%;
+  }
+  .todo-form input {
+    font-size: 1em;
+  }
+  .tasks-list {
+    min-height: 100px;
+  }
+  .checkmark {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid teal;
+    border-radius: 50%;
+  }
+}
