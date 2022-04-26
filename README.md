@@ -20,11 +20,9 @@
   <a href="https://seb-todoapp.herokuapp.com/">
 <img src="images/demo.png" alt="Logo" width="1000" height="467">
     </a>
-  </div>
-<p align="center>
-It took me some time to understand how states work, but I finally succeded. I also explored a bit the world of NodeJs and MongoDB succesfully creating a simple database for the ToDos that anyone can edit. 
+  It took me some time to understand how states work, but I finally succeded. I also explored a bit the world of NodeJs and MongoDB succesfully creating a simple database for the ToDos that anyone can edit. 
           <br> For the Drag and Drop, I used [React Beautiful DnD](https://github.com/atlassian/react-beautiful-dnd) that was very simple to install and apply to my project.
-</p>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -40,6 +38,6 @@ It took me some time to understand how states work, but I finally succeded. I al
 <!-- CONTACT -->
 ## Contact
 
-Seb Herrera - [@linkedin_handle](https://www.linkedin.com/in/sebherrerabe/) - sebastianherrerac1997@gmail.com
+Seb Herrera - [sebherrerabe](https://www.linkedin.com/in/sebherrerabe/) - sebastianherrerac1997@gmail.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
