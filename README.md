@@ -18,7 +18,7 @@
 
 ## About The Project
   <a href="https://seb-todoapp.herokuapp.com/">
-<img src="images/demo.png" alt="Logo" width="1000" height="467">
+<img src="images/demo.png" alt="Logo" width="1000" height="467" margin-bottom="20px" >
   </a>  
   
     
