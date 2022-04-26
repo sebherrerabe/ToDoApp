@@ -22,7 +22,7 @@
     </a>
   It took me some time to understand how states work, but I finally succeded. I also explored a bit the world of NodeJs and MongoDB succesfully creating a simple database for the ToDos that anyone can edit. 
           <br> For the Drag and Drop, I used [React Beautiful DnD](https://github.com/atlassian/react-beautiful-dnd) that was very simple to install and apply to my project.
-
+</div>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
