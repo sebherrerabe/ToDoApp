@@ -17,12 +17,9 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-<div align="center">
   <a href="https://seb-todoapp.herokuapp.com/">
 <img src="images/demo.png" alt="Logo" width="1000" height="467">
     </a>
-  <br/>
-</div>  
 
 > It took me some time to understand how states work, but I finally succeded.  
 > I also explored a bit the world of NodeJs and MongoDB succesfully creating a simple database for the ToDos that anyone can edit.  
