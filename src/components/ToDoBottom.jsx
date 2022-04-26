@@ -2,7 +2,7 @@ import React from "react";
 import Category from "./sub-components/category";
 
 const ToDoBottom = ({ categories, handleCategories, getLefts }) => {
-  
+
   const getItemsPhrase = () => {
     let lefts = getLefts();
     if (lefts === 1) return lefts + " item left";

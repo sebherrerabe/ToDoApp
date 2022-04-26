@@ -51,7 +51,7 @@ const ToDoList = ({
         display = tasks.map((task, index) => {
           if (!task.completed) {
             return toDoItem(task, index);
-          }
+          } else return null;
         });
       } else if (active.active && lefts === 0) {
         display = <ToDoFlash flash={flashes[1]} />;
@@ -60,7 +60,7 @@ const ToDoList = ({
         display = tasks.map((task, index) => {
           if (task.completed) {
             return toDoItem(task, index);
-          }
+          } else return null;
         });
       } else if (completed.active && completeds === 0) {
         display = <ToDoFlash flash={flashes[2]} />;

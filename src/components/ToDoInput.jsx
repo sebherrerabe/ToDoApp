@@ -55,6 +55,7 @@ const ToDoInput = ({ tasks, setTasks, isDisplayed, setIsDisplayed }) => {
           type="text"
           ref={userInput}
           placeholder="What needs to be done?"
+          onFocus={() => {setIsDisplayed(true)}}
         />
       </form>
     </div>

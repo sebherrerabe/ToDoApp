@@ -54,6 +54,7 @@ const ToDoApp = () => {
       await updateTaskfromDB(task, index);
     });
   }, [tasks]);
+
   const getLefts = () => {
     let lefts = 0;
     tasks.forEach((task) => {
