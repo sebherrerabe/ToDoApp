@@ -21,9 +21,10 @@
 <img src="images/demo.png" alt="Logo" width="1000" height="467">
     </a>
   </div>
-
-It took me some time to understand how states work, but I finally succeded. I also explored a bit the world of NodeJs and MongoDB succesfully creating a simple database for the ToDos that anyone can edit. For the Drag and Drop, I used [React Beautiful DnD](https://github.com/atlassian/react-beautiful-dnd) that was very simple to install and apply to my project.
-
+<p align="center>
+It took me some time to understand how states work, but I finally succeded. I also explored a bit the world of NodeJs and MongoDB succesfully creating a simple database for the ToDos that anyone can edit. 
+          <br> For the Drag and Drop, I used [React Beautiful DnD](https://github.com/atlassian/react-beautiful-dnd) that was very simple to install and apply to my project.
+</p>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -31,7 +32,7 @@ It took me some time to understand how states work, but I finally succeded. I al
 ### Built With
 * [React.js](https://reactjs.org/)
 * [Express.js](https://expressjs.com/)
-* [MongoDB] (https://www.mongodb.com/)
+* [MongoDB](https://www.mongodb.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
