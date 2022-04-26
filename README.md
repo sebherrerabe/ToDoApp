@@ -16,14 +16,14 @@
 
 <!-- ABOUT THE PROJECT -->
 
-<br>
+<br />
 ## About The Project
 <div align="center">
   <a href="https://seb-todoapp.herokuapp.com/">
 <img src="images/demo.png" alt="Logo" width="1000" height="467">
     </a>
 </div>
-<br>
+<br />
 * It took me some time to understand how states work, but I finally succeded. I also explored a bit the world of NodeJs and MongoDB succesfully creating a simple database for the ToDos that anyone can edit. 
 * For the Drag and Drop, I used [React Beautiful DnD](https://github.com/atlassian/react-beautiful-dnd) that was very simple to install and apply to my project.
 <p align="right">(<a href="#top">back to top</a>)</p>
